@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `marthagoshen` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `marthagoshen`;
 -- MySQL dump 10.13  Distrib 8.0.16, for Win64 (x86_64)
 --
 -- Host: localhost    Database: marthagoshen
@@ -38,15 +40,6 @@ CREATE TABLE `concern` (
   KEY `id_2` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `concern`
---
-
-LOCK TABLES `concern` WRITE;
-/*!40000 ALTER TABLE `concern` DISABLE KEYS */;
-/*!40000 ALTER TABLE `concern` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -57,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-19  4:50:28
+-- Dump completed on 2019-05-19  5:26:31
