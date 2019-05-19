@@ -1,0 +1,54 @@
+*{color: #ddddd}
+.bg{background: url('../images/goshen.jpg') no-repeat; width: 100%; height: 100vh;
+background-size: cover;}
+.form-container{border:1px solid #fff; padding:50px 60px; margin-top: 20vh;
+    background-color: white;
+-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.center{
+    position: center;
+}
+
+.marthalogo{
+    width: 305px;
+    height:90px;
+}
+
+.modal-title{
+    color: black;
+}
+
+.firstN{
+    color: black;
+}
+
+.lastN{
+    color: black;
+}
+
+.emailAdd{
+    color: black;
+}
+
+.mobNum{
+    color: black;
+}
+
+.pos{
+    color: black;
+}
+
+.pass{
+    color: black;
+}
+
+.confPass{
+    color: black;
+}
+
+.checkbox-inline{
+    color: black;
+}
